@@ -1,0 +1,211 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 300;
+  /*font-family: 'Prompt', sans-serif;*/
+  margin: 0 225px;
+}
+
+div {
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-table;
+  position: relative;
+  float: right;
+  width: 480px;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.bright {
+  color: black;
+  /*cursor: not-allowed;*/
+  /*cursor: none; can add if I want a certian viewer experience i.e. on an image/video*/
+}
+
+li {
+  display: inline;
+  padding: 0 20px;
+}
+
+.title {
+  position: relative;
+  display: inline;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover {
+  color: #F24C4C;
+}
+
+.top-container {
+  position: relative;
+  margin: auto;
+  padding: 100px 0 50px;
+}
+
+.desktop-image {
+  width: 80%;
+  position: absolute;
+}
+
+.left-container {
+  width: 80%;
+  bottom: 20px;
+  margin-right: auto;
+  position: relative;
+  padding: 0;
+}
+
+.right-container {
+  margin-bottom: 500px;
+  margin-left: auto;
+  width: 28%;
+  background-color: #181D31;
+  position: relative;
+  padding: 5px 20px;
+  bottom: 20px;
+}
+
+hr {
+  color: white;
+  border-style: solid none none;
+  /*border-style: none;*/
+}
+
+.row-title {
+  color: #FFAB4C;
+}
+
+.cars {
+  color: white;
+}
+
+.cars:hover {
+  color: #FFAB4C;
+}
+
+.ai {
+  color: white;
+}
+
+.ai:hover {
+  color: #FFAB4C;
+}
+
+.fund {
+  color: white;
+}
+
+.fund:hover {
+  color: #FFAB4C;
+}
+
+p {
+  color: white;
+}
+
+.bottom-left-container {
+  width: 25%;
+  position: relative;
+  bottom: 750px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px 0 0;
+}
+
+.bottom-right-container {
+  left: 350px;
+  bottom: 1000px;
+  width: 30%;
+  position: relative;
+  padding-top: 15px;
+}
+
+.web {
+  color: black;
+  font-size: 1rem;
+  text-align: justify;
+  padding: 0;
+  text-decoration: none;
+}
+
+.web:hover {
+  color: #F24C4C;
+}
+
+.next {
+  color: grey;
+  font-size: 1rem;
+  padding: 0;
+}
+
+.a {
+  color: grey;
+  font-size: 1rem;
+  padding: 0;
+}
+
+.no {
+  color: #D8D8D8;
+  width: 20%;
+  font-size: 2rem;
+  text-align: justify;
+}
+
+table {
+  top: 700px;
+  width: 70%;
+  position: absolute;
+}
+
+.pc {
+  width: 95%;
+
+}
+
+.laptop {
+  width: 95%;
+}
+
+.gaming {
+  width: 95%;
+
+}
+
+.attribution {
+  position: absolute;
+  margin: 0 0 10px;
+  width: 70%;
+  height: 100px;
+}
+
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  font-family: 'Prompt', sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  background: #F24C4C;
+  padding: 15px 25px 15px 25px;
+  text-decoration: none;
+  position: absolute;
+  margin-bottom: 0;
+}
+
+.btn:hover {
+  background: #181D31;
+  text-decoration: none;
+  color: #ffffff;
+}
